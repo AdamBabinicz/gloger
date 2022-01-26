@@ -1,11 +1,11 @@
 .modals {
-  /* display: grid; */
-  /* position: fixed; */
-  /* place-content: center; */
-  /* inset: 5%; */
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: grid;
+  position: fixed;
+  place-content: center;
+  inset: 5%;
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
   background: hsl(var(--clr-glass-dark));
   backdrop-filter: blur(1rem);
   gap: 1rem;
