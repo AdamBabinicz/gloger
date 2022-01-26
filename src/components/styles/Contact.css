@@ -1,0 +1,54 @@
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)),
+    url("../assets/1.jfif") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.contact h2 {
+  color: hsl(var(--clr-glass));
+  font-size: clamp(1rem, 14vw + 1rem, 4rem);
+}
+.contact a {
+  text-decoration: none;
+  margin-block: 1rem;
+}
+.contact .arrow {
+  font-size: 40px;
+  transition: all 0.4s ease-in-out;
+}
+.contact .arrow:hover {
+  opacity: 0.5;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+  margin-bottom: 3rem;
+}
+.footer ul {
+  display: flex;
+  list-style: none;
+}
+.footer ul li {
+  margin-right: 2rem;
+  transition: all 0.4s ease-in-out;
+}
+.footer ul li:last-child {
+  margin-right: 0;
+}
+.footer ul li:hover {
+  opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    line-height: 3;
+  }
+}

@@ -1,0 +1,42 @@
+.modals {
+  display: grid;
+  position: fixed;
+  place-content: center;
+  inset: 5%;
+  background: hsl(var(--clr-glass-dark));
+  backdrop-filter: blur(1rem);
+  gap: 1rem;
+  padding: 1rem;
+}
+.cart {
+  padding: 0.9rem;
+  background: hsl(var(--clr-glass-blank));
+  cursor: pointer;
+  text-transform: none;
+  text-align: left;
+  line-height: 1.7;
+}
+.cart a {
+  text-decoration: none;
+  font-size: clamp(0.1rem, 0.5vw + 0.5rem, 3rem);
+  color: var(--clr-white);
+}
+.close-modal {
+  position: absolute;
+  cursor: pointer;
+}
+.close-modal .cm {
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 50em) {
+  .modals {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    inset: 20%;
+  }
+  .cart {
+    padding: 1.8rem;
+    line-height: 2;
+  }
+}
