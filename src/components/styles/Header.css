@@ -36,7 +36,7 @@
 }
 .hamburger-icon .icon {
   color: hsl(var(--clr-glass));
-  font-size: clamp(1rem, 4vw + 1rem, 4rem);
+  font-size: clamp(2rem, 4vw + 1rem, 4rem);
   cursor: pointer;
   display: none;
 }
