@@ -1,8 +1,11 @@
 .modals {
-  display: grid;
-  position: fixed;
-  place-content: center;
-  inset: 5%;
+  /* display: grid; */
+  /* position: fixed; */
+  /* place-content: center; */
+  /* inset: 5%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: hsl(var(--clr-glass-dark));
   backdrop-filter: blur(1rem);
   gap: 1rem;
@@ -25,6 +28,8 @@
 .close-modal {
   position: absolute;
   cursor: pointer;
+  right: 0.5rem;
+  top: 0.5rem;
 }
 .close-modal .cm {
   font-size: 20px;
