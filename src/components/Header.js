@@ -22,13 +22,19 @@ const Header = () => {
             <VscChromeClose className="close" onClick={openMenu} />
           </div>
           <li>
-            <a href="/">Start</a>
+            <a href="/" onClick={openMenu}>
+              Start
+            </a>
           </li>
           <li>
-            <a href="#życiorys">Życiorys</a>
+            <a href="#życiorys" onClick={openMenu}>
+              Życiorys
+            </a>
           </li>
           <li>
-            <a href="#upamiętnienie">Upamiętnienie</a>
+            <a href="#upamiętnienie" onClick={openMenu}>
+              Upamiętnienie
+            </a>
           </li>
           <li>
             <Link to="/contact">Kontakt</Link>
