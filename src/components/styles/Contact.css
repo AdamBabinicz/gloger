@@ -15,6 +15,7 @@
 .contact a {
   text-decoration: none;
   margin-block: 1rem;
+  color: var(--clr-white);
 }
 .contact .arrow {
   font-size: 40px;
