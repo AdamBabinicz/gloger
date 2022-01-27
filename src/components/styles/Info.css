@@ -63,6 +63,9 @@
     padding-block: 2rem;
     padding-inline: 1.5rem;
   }
+  .info-about {
+    margin: 0 1rem;
+  }
   .info-about p {
     text-align: justify;
   }
