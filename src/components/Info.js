@@ -70,7 +70,9 @@ const Info = () => {
           </p>
           <br />
           <p>
-            <em>pl.wikipedia.org/wiki/Złoto</em>
+            <em>
+              https://www.cozadzien.pl/radom/jest-taka-ulica-w-radomiu-glogiera/993
+            </em>
           </p>
         </Modal>
       </div>
