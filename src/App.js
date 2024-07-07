@@ -42,7 +42,7 @@ function App() {
         indywidualnych potrzeb. Korzystanie z witryny bez zmiany ustawień
         dotyczących cookies oznacza, że będą one zamieszczane w Państwa
         urządzeniu końcowym. Możecie Państwo dokonać w każdym czasie zmiany
-        ustawień dotyczących cookies."
+        ustawień dotyczących cookies. "
       </CookieConsent>
     </>
   );
